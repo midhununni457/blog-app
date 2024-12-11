@@ -3,6 +3,10 @@
 # C extensions
 *.so
 
+# Environment variables and Flask configuration files
+.env
+.flaskenv
+
 # Packages
 *.egg
 *.egg-info
@@ -38,3 +42,4 @@ nosetests.xml
 venv
 app.db
 microblog.log*
+
